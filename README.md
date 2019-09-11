@@ -77,15 +77,6 @@ kubectl get nodes -o wide --show-labels
 kubectl get pods --all-namespaces -o wide --show-labels
 ```
 
-## Access the Workload and Octant
-
-Visit the URL's stored in the output for NGINX and Octant:
-
-```bash
-pulumi stack output nginxUrl
-pulumi stack output octantUrl
-```
-
 ## Clean Up
 
 Run the following command to tear down the resources that are part of our
