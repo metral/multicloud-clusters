@@ -1,0 +1,3 @@
+name: multicloud
+description: Deploys a Kubernetes cluster across multiple cloud providers AWS, Azure, GKE and a local KinD cluster.
+runtime: nodejs
